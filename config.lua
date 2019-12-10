@@ -9,7 +9,6 @@ Config.closeH = 22
 
 Config.Timeout = 60
 
-
 Config.rewardChance = 10
 Config.Reward = { item = 'crate'}
 

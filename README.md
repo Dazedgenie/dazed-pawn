@@ -2,31 +2,30 @@
 
 This mod adds the following:
 
-- Drug Runs
+- Pawn Runs
 
 # Installation
 Add to resource folder `[esx]` or `[disc]`
 
-Start using `start disc-drugsales`
+Start using `start dazed-pawn`
 
 # Steps
 
-- Insert Drug Items into `essentialmode.items` table on your database
-- Configure with your drug items
+- Insert pawn Items into `essentialmode.items` table on your database
+- Configure with your pawn items
 
 # Usage
 1. Go to start location
 2. Pay the price
-3. Get random drug items
-4. Get Random Locations to deliver to sent by phone
+4. Get Random Locations to deliver to sent by phone for specific item
 
 # Configuration
 
-Drug Items
+Pawn Items
 ```
 { 
-    name = 'Oxy', --Name of Drug
-    item = 'oxy', --Name of Item
+    name = 'Jewels', --Name of Drug
+    item = 'jewels', --Name of Item
     price = { 
         500,
         2000
@@ -36,7 +35,30 @@ Drug Items
 
 Price to Pay for Starting Run
 ```
-Config.StartPrice = 2000
+Config.StartPrice = 1
+```
+
+Police/Jounalist Notification Percentage
+```
+Config.NotifyCopsPercentage = 20 
+Config.NotifyNewsPercentage = 20
+```
+
+Pawn Open/Closed hours
+```
+Config.openH = 7
+Config.closeH = 22
+```
+
+Pawn list timeout in seconds
+```
+Config.Timeout = 60
+```
+
+Special Reward Item/Percentage
+```
+Config.rewardChance = 10
+Config.Reward = { item = 'crate'}
 ```
 
 Starting Points
@@ -57,5 +79,4 @@ Config.DeliveryPoints --List of Delivery Points
 
 # To Do
 
-- Add NPC to accept drugs
-- Add failure to deliver and NPC robbing you
+- Add NPC to accept pawn at location

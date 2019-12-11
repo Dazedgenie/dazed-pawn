@@ -7,10 +7,10 @@ Config.NotifyNewsPercentage = 20
 Config.openH = 7
 Config.closeH = 22
 
-Config.Timeout = 60
+Config.Timeout = 300
 
-Config.rewardChance = 10
-Config.Reward = { item = 'crate'}
+Config.rewardChance = 50
+Config.Reward = {'WEAPON_SNSPISTOL', 'joint', 'opium_pooch'} 
 
 Config.Pawn = {
     { name = 'Ring', item = 'ring', price = { 900, 2500 } },

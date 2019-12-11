@@ -4,6 +4,9 @@ This mod adds the following:
 
 - Pawn Runs
 
+Video of resource in use
+https://streamable.com/2rwfm
+
 # Installation
 Add to resource folder `[esx]` or `[disc]`
 

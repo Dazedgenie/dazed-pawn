@@ -1,5 +1,6 @@
 ----- Original Code from DiscWorldZA -----
 ---- Reworked version of Disc-Drugruns ---
+--------- Modified by Dazedgenie ---------
 
 ESX = nil
 PlayerData = nil

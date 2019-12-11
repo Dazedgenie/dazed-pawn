@@ -58,7 +58,7 @@ Config.Timeout = 60
 Special Reward Item/Percentage
 ```
 Config.rewardChance = 10
-Config.Reward = { item = 'crate'}
+Config.Reward = {'WEAPON_SNSPISTOL', 'joint', 'opium_pooch'}  --More Items can easily be added or removed for a greater variety
 ```
 
 Starting Points
@@ -75,6 +75,7 @@ Config.DeliveryPoints --List of Delivery Points
 
 - [Disc-Base](https://github.com/DiscworldZA/gta-resources/tree/master/disc-base)
 - [Disc-GcPhone](https://github.com/DiscworldZA/gta-resources/tree/master/disc-gcphone)
+- [progressBars](https://github.com/torpidity/progressBars)
 
 
 # To Do

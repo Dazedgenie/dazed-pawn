@@ -75,10 +75,12 @@ Config.DeliveryPoints --List of Delivery Points
 ```
 
 # Requirements
+This is coded to work with ESX
 
 - [Disc-Base](https://github.com/DiscworldZA/gta-resources/tree/master/disc-base)
 - [Disc-GcPhone](https://github.com/DiscworldZA/gta-resources/tree/master/disc-gcphone)
 - [progressBars](https://github.com/torpidity/progressBars)
+- [mythic_notify](https://github.com/mythicrp/mythic_notify)
 
 
 # To Do
